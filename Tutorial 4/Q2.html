@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <br><br>
+    <form align="left">
+        <label>Firstname :
+            <input type="text" required>
+        </label><br><br>
+        <label>Middlename:
+            <input type="text">
+        </label><br><br>
+        <label>Lastname :
+            <input type="text" required>
+        </label><br><br>
+        <label>Course :
+            <select name="Course" id="Course">
+                <option value="">-Select-</option>
+                <option value="BCA">BCA</option>
+                <option value="BBA">BBA</option>
+                <option value="B. Tech">B.Tech</option>
+                <option value="MBA">MBA</option>
+                <option value="MCA">MCA</option>
+                <option value="M. Tech">M. Tech</option>
+            </select>
+        </label><br><br>
+        <label>Gender : <br>
+            <input type="radio" name="Gender" value="Male">Male <br>
+            <input type="radio" name="Gender" value="Female">Female <br>
+            <input type="radio" name="Gender" value="Other">Other
+        </label> <br><br>
+        <label>Phone :
+            <input type="text" width="15" value="+91">
+            <input type="tel" required maxlength="10">
+        </label><br><br>
+        <label>Address : <br>
+            <textarea name="Address" id="Address" cols="50" rows="6"></textarea>
+        </label><br><br>
+        <label>Email :
+            <input type="email" required><br><br>
+            Password : <input type="text" required id="Password"><br><br>
+            Re-type Password : <input type="text" required id="Re-type Password"><br><br>
+            <input type="submit">
+        </label>
+    </form>
+</body>
+</html>
