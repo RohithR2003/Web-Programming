@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial 5</title>
+</head>
+<body>
+    
+    <h2>Factorial</h2>
+    <script type="text/javascript">
+        var n = prompt("enter the value : ")
+        num = parseInt(n)
+        i=num
+        x=1
+        while(i!=0)
+        {
+            x=x*i
+            i=i-1
+        }
+        document.writeln("Factorial of number" +" " +  n  + " " +"is"+" " + x)
+    </script>
+    
+    <h2>Palindrome or Not</h2>
+    <script type="text/javascript">    
+        while (true) {
+            var n=prompt("enter a 5 digit number : ")
+            var new_num = n.length
+            if (new_num === 5) {
+                break;
+            }
+            else {
+                alert("enter a 5 digit number")
+            }
+        }
+        var rev =  num.split('').reverse().join('')
+        if (num === rev) {
+            document.writeln("Number" +"" + n +" "+ "is palindrome" +" "+ rev)
+        }
+        else {
+           document.writeln("Number" +"" + n +" "+ "is not palindrome" +" "+ rev)
+        }
+    </script>
+    
+</body>
+</html>
